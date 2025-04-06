@@ -1,6 +1,5 @@
 import csv
 from collections import defaultdict
-#test
 def clean_word(word):
     """Remove invisible characters and normalize word"""
     return word.strip().replace('\ufeff', '').lower()
